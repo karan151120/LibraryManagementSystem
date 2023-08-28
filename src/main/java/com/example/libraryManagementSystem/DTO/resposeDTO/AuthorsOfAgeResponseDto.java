@@ -1,0 +1,17 @@
+package com.example.libraryManagementSystem.DTO.resposeDTO;
+
+import com.example.libraryManagementSystem.entity.Author;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.List;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class AuthorsOfAgeResponseDto {
+    private List<Author> authorAge;
+}
